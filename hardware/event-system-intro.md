@@ -65,10 +65,10 @@ The event stream protocol is based on [8b10b encoded](https://en.wikipedia.org/w
 characters, which means that the actual bit rate is higher than the number of bits in the event frame.
 Ten bits are transmitted on the link for each 8-bit byte. 
 
-Each frame of the stream consists of two bytes. The first byte is dedicated for transmitting [timing events](#event-processing),
+Each frame of the stream consists of two bytes. The first byte is dedicated for transmitting {hoverxref}`timing events <event-processing>`,
 and always contains an [event code](#event-codes). 
 The second byte can be configured for use in two different ways, as
-[distributed bus](#distributed-bus) bits or [synchronous data transmission](#synchronous-data). 
+{hoverxref}`distributed bus <distributed-bus>` bits or {hoverxref}`synchronous data transmission <synchronous-data>`. 
 These will be explained in detail later.
 
 ![image](images/event-frames.png){w=500px}
