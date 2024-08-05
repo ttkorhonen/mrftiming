@@ -1,4 +1,4 @@
-MRF Timing System Reference
+MRF Timing System Hardware and Firmware Reference
 ===========================
 
 .. toctree::
@@ -10,7 +10,7 @@ MRF Timing System Reference
 
 .. toctree::
    :maxdepth: 2
-   :caption: Hardware:
+   :caption: Reference Manual:
 
    event-generator
    evg-registermap

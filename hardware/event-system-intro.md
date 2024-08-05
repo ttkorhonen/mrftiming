@@ -457,13 +457,8 @@ of optical cables that affect the signal propagation time in the system.
 With different cable lengths, long distances and thermal gradients, the propagation delays 
 could drift and disturb operation in cases where long-term timing stability is critical.
 
-With the active delay compensation feature the Event Generator and
-distribution layer have been integrated into a single product, the Event
-Master (EVM).
-
-![image](images/timing-system-topology.png)
-
-Figure: Timing System Topology (Active Delay Compensation, series 300)
+With introduction of the active delay compensation feature the Event Generator and
+distribution layer were integrated into a single product, the Event Master (EVM).
 
 ### Topology ID
 

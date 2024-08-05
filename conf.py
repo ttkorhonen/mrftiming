@@ -19,7 +19,7 @@
 
 project = 'Micro-Research Finland Timing Documentation'
 copyright = '2023, document authors'
-author = 'Timo Korhonen'
+author = 'Jukka Pietarinen, Timo Korhonen (edits)'
 
 
 # -- General configuration ---------------------------------------------------

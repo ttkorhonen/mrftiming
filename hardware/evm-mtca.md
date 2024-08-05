@@ -54,7 +54,7 @@ Table: mTCA-EVM-300 mTCA.4 Backplane Trigger Bus Lines
 | Rx20       |  6                     |
 | Tx20       |  7                     |
 
-The differential line is an input when the BPOutMap register for this line has the value 0x3d (61 decimal).
+The differential line is an input when the [BPOutMap register for this line has the value 0x3d (61 decimal)](event-generator.md#mapping-id-table).
 
 ### mTCA-EVM-300 mTCA.4 Rear Transition Module Signals
 
