@@ -83,7 +83,7 @@ The Event Generator generates the event stream and sends it out to an
 array of Event Receivers.
 
 The Event Generator has a number of functions:
-  - Generating and transmitting the {hoverxref}}`timing events <event-processing>`
+  - Generating and transmitting the [timing events](#event-processing)
   - Transmitting the [Distributed Bus](#distributed-bus) bits
   - Transmitting the [Synchronous Data](#synchronous-data) Buffer
   - Acting as a [source for timestamps](#timestamping-support).
