@@ -132,7 +132,7 @@ special function event codes are listed in the table below.
 | 0x7A     | Heartbeat          | \-         | \-                   |
 | 0x7B     | Synchronise Prescalers       | \-         | Synchronise Prescaler Outputs    |
 | 0x7C     | Timestamp Counter Increment | \-         | Increment Timestamp Counter |
-| 0x7D     | Timestamp Counter Reset | \-         | \-                   |
+| 0x7D     | Timestamp Counter Reset | \-         | Reset Timestamp Counter                   |
 | 0x7E     | Beacon event       | \-         | \-                   |
 | 0x7F     | End of Sequence    | \-         | \-                   |
 | 0x80-FF  | \-                 | User Defined | User Defined         |

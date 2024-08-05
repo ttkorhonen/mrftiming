@@ -309,17 +309,18 @@ from the EVG at a lower rate.
 
 During each "second" 33 special codes (see sec.
 [Event Codes](#event-codes))
-must be sent. The first 32 are the shift 0/1 codes which contain the
-value of the next "second". The last is the timestamp reset event. When
-received this code transfers the new "second" value out of the shift
-register, and resets the counter to zero. These actions start the next
-"second".
+must be sent. The first 32 are the shift 0/1 codes which define the
+bit value of the next second in the Seconds Shift Register".  
+The last is the "timestamp counter reset" event. 
+When this code is received, the EVR transfers the value from the shift
+register to the "seconds" register, and resets the counter to zero. 
+These actions start the next second.
 
 Note that while it is referred to as "seconds" this value is an
-arbitrary integer which can have other meanings. Currently only one time
+arbitrary integer which could have other meanings. Currently only one
 model is implemented, but implementing others is possible.
 
-### Standard (aka "Light Source") Time Model
+### Standard Time Model
 
 In this model the "seconds" value is an actual 1Hz counter. The software
 default is the POSIX time of seconds since 1 Jan. 1970 UTC. Each new
