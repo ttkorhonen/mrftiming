@@ -1,0 +1,9 @@
+sphinx_copybutton
+sphinx-togglebutton
+sphinx-hoverxref
+sphinx-multiproject
+myst_parser
+#myst-parser == 0.15.0
+sphinx-rtd-theme == 0.5.2
+sphinx-tippy
+
