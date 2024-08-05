@@ -130,7 +130,7 @@ html_theme_options = {
     'body_max_width': '90%',
     'style_nav_header_background' :'#C6D93C',
 }
-html_logo = "EPICS_white_logo_v02.png"
+#html_logo = "EPICS_white_logo_v02.png"
 html_css_files = [
     'custom.css',
 ]
