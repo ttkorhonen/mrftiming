@@ -47,7 +47,7 @@ Input specifications are following:
 | V{sub}`IH`      | > 2.3 V |
 | V{sub}`IL`      | < 1.0 V |
 
-### VME-EVM-300 VME P2 User I?O Pin Configuration
+### VME-EVM-300 VME P2 User I/O Pin Configuration
 
 The following table lists the connections to the VME P2 User I/O Pins.
 

@@ -177,7 +177,7 @@ the pulse generator behaves exactly the same way as in earlier firmware releases
 i.e., the total number of pulses is n+1 where n is the number of repetitions. 
 Both the repeat delay (interval) and number of repetitions registers are 32 bit wide.
 
-![image](evr-pulsegen-pulsetrains.png)
+![image](images/evr-pulsegen-pulsetrains.png)
 
 
 ### Prescalers
