@@ -15,6 +15,7 @@ MRF Timing System Hardware and Firmware Reference
    event-generator
    evg-registermap
    evm-mtca
+   evm300-vme
    firmware-changelog 
    fct-registermap
    event-receiver
