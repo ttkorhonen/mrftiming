@@ -8,7 +8,7 @@ The front panel of the Event Generator includes the following connections and st
 | ----------------| ----- | -----    | ------------ |
 | HS | Red Led | | Module Failure |
 | HS | Blue Led | | Module Powered Down |
-| ACT | 3-color Led | | SAM3X Activity Led |
+| ACT | 3-color Led | | [SAM3X](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-11057-32-bit-Cortex-M3-Microcontroller-SAM3X-SAM3A_Datasheet.pdf) Activity Led |
 | USB | Micro-USB | | SAM3X Serial port / JTAG interface |
 | 10/100 | RJ45| | SAM3X Ethernet Interface |
 | IN0 | LEMO | TTL | ACIN/TTL0 Trigger input |
@@ -40,10 +40,10 @@ The inputs are terminated with 50 ohm to ground and are 5V tolerant even when po
 
 Input specifications are following:
 
-| parameter       | value |
-| ---------       | ----- |
+| parameter       | value   |
+| ---------       | -----   |
 | connector type  | [LEMO EPK.00.250.NTN](https://www.lemo.com/int_en/solutions/specialties/00-nim-camac/epk-00-250-ntn.html) | 
-| input impedance | 50 ohm |
+| input impedance | 50 ohm  |
 | V{sub}`IH`      | > 2.3 V |
 | V{sub}`IL`      | < 1.0 V |
 
@@ -96,10 +96,10 @@ The following table lists the required field to locate an Event Generator module
 
 Table: VME-EVM-300 CR/CSR
 
-|  CR Address | Register        | EVG  |
-| ----------- | --------        | ---  |
-| 0x27, 0x2B, 0x2F           | Manufacturer’s ID (IEEE OUI)  | 0x000EB2
-| 0x33, 0x37, 0x3B, 0x3F     | Board ID                      | 0x4547012C
+|  CR Address                | Register                      | EVG        |
+| -----------                | --------                      | ---        |
+| 0x27, 0x2B, 0x2F           | Manufacturer’s ID (IEEE OUI)  | 0x000EB2   |
+| 0x33, 0x37, 0x3B, 0x3F     | Board ID                      | 0x4547012C |
 
 ### Function 0 and 1 Registers
 The Event Generator specific register are accessed via Function 0 or 1 as specified 
@@ -107,7 +107,6 @@ in the VME64x specification.
 To enable Function 0, the address decoder compare register for Function 0 in CSR space has to be programmed.
 
 ```
-
 vmeCSRWriteADER(3, 0, (slot << 19) | (VME_AM_STD_USR_DATA << 2)); 
 MrfEvgStruct *pEvg;
 sysBusToLocalAdrs(VME_AM_STD_USR_DATA, (char *) (slot << 19), (void *) pEvg);
