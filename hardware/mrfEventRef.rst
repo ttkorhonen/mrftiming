@@ -21,6 +21,7 @@ MRF Timing System Hardware and Firmware Reference
    event-receiver
    evr300-mtca
    evr300-vme
+   pcie-evr300DC
    evr-registermap
    evr-firmware-changelog 
 

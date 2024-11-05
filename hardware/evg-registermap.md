@@ -808,7 +808,7 @@ must be reloaded to initialize an internal reset.
 |         | bit 23   | bit 22   | bit 21   | bit 20   | bit 19    | bit 18    | bit 17    | bit 16           |
 | 0x501   | FP0DB7   | FP0DB6   | FP0DB5   | FP0DB4   | FP0DB3    | FP0DB2    | FP0DB1    | FP0DB0           |
 |         | bit 15   | bit 14   | bit 13   | bit 12   | bit 11    | bit 10    | bit 9     | bit 8            |
-| 0x502   |          |          | FP0SEN1  | FP0SEN0  |           |           | FP0SEQ1   | FP0SEQ0          |
+| 0x502   | FP0MXCR  |          | FP0SEN1  | FP0SEN0  |           |           | FP0SEQ1   | FP0SEQ0          |
 |         | bit 7    | bit 6    | bit 5    | bit 4    | bit 3     | bit 2     | bit 1     | bit 0            |
 | 0x503   | FP0EV7   | FP0EV6   | FP0EV5   | FP0EV4   | FP0EV3    | FP0EV2    | FP0EV1    | FP0EV0           |
 |         | bit 31   | bit 30   | bit 29   | bit 28   | bit 27    | bit 26    | bit 25    | bit 24           |
@@ -816,7 +816,7 @@ must be reloaded to initialize an internal reset.
 |         | bit 23   | bit 22   | bit 21   | bit 20   | bit 19    | bit 18    | bit 17    | bit 16           |
 | 0x505   | FP1DB7   | FP1DB6   | FP1DB5   | FP1DB4   | FP1DB3    | FP1DB2    | FP1DB1    | FP1DB0           |
 |         | bit 15   | bit 14   | bit 13   | bit 12   | bit 11    | bit 10    | bit 9     | bit 8            |
-| 0x506   |          |          | FP1SEN1  | FP1SEN0  |           |           |  FP1SEQ1  | FP1SEQ0          |
+| 0x506   | FP1MXCR  |          | FP1SEN1  | FP1SEN0  |           |           |  FP1SEQ1  | FP1SEQ0          |
 |         | bit 7    | bit 6    | bit 5    | bit 4    | bit 3     | bit 2     | bit 1     | bit 0            |
 | 0x507   | FP1EV7   | FP1EV6   | FP1EV5   | FP1EV4   | FP1EV3    | FP1EV2    | FP1EV1    | FP1EV0           |
 |         | bit 31   | bit 30   | bit 29   | bit 28   | bit 27    | bit 26    | bit 25    | bit 24           |
@@ -824,7 +824,7 @@ must be reloaded to initialize an internal reset.
 |         | bit 23   | bit 22   | bit 21   | bit 20   | bit 19    | bit 18    | bit 17    | bit 16           |
 | 0x509   | FP2DB7   | FP2DB6   | FP2DB5   | FP2DB4   | FP2DB3    | FP2DB2    | FP2DB1    | FP2DB0           |
 |         | bit 15   | bit 14   | bit 13   | bit 12   | bit 11    | bit 10    | bit 9     | bit 8            |
-| 0x50A   |          |          | FP2SEN1  | FP2SEN0  |           |           | FP2SEQ1   | FP2SEQ0          |
+| 0x50A   | FP2MXCR  |           | FP2SEN1  | FP2SEN0  |           |           | FP2SEQ1   | FP2SEQ0          |
 |         | bit 7    | bit 6    | bit 5    | bit 4    | bit 3     | bit 2     | bit 1     | bit 0            |
 | 0x50B   | FP2EV7   | FP2EV6   | FP2EV5   | FP2EV4   | FP2EV3    | FP2EV2    | FP2EV1    | FP2EV0           |
 
@@ -841,6 +841,7 @@ must be reloaded to initialize an internal reset.
 | FPxDB2    | Map Front panel Input x to Distributed Bus bit 2
 | FPxDB1    | Map Front panel Input x to Distributed Bus bit 1
 | FPxDB0    | Map Front panel Input x to Distributed Bus bit 0
+| FPxMXCR   | Map Front panel Input x to Reset Multiplexed Counters
 | FPxSEN1   | Map Front panel Input x to Sequence External Enable 1
 | FPxSEN0   | Map Front panel Input x to Sequence External Enable 0
 | FPxSEQ1   | Map Front panel Input x to Sequence Trigger 1
