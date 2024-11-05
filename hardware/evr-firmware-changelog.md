@@ -1,5 +1,6 @@
 ## EVR Firmware Version Change Log
 
+Firmware release binaries can be found in [this repository](https://github.com/jpietari/mrf-firmware). 
 
 | FW Version | Date          | Changes                                                                   | Affected HW |
 | ---------- | ----          | -------                                                                   | ----------- |

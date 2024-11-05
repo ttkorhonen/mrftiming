@@ -1,5 +1,7 @@
 ## EVM Firmware Version Change Log
 
+Firmware release binaries can be found in [this repository](https://github.com/jpietari/mrf-firmware). 
+
 | FW Version | Date | Changes | Affected HW |
 | ---------- | ---- | ------- | ------------|
 | 0200 | 11.06.2015 | - Prototype release | VME-EVM-300
@@ -57,5 +59,5 @@ data buffers/segmented data buffers.
 
 | FW Version | Date       | Changes                             | Affected HW |
 | ---------- | ----       | -------                             | ------------|
-| 0C0207     | 11.09.2020 | - Merge VME tested successfully.    | VME-EVM-300
-| 0E0207     | 24.02.2021 | - Merge mTCA.4 tested successfully. | mTCA-EVM-300
+|  0C0207    | 11.09.2020 | - Merge VME tested successfully.    | [VME-EVM-300](https://github.com/jpietari/mrf-firmware/blob/main/dc/VME-EVM-300-220C0207.bit) 
+|  0E0207    | 24.02.2021 | - Merge mTCA.4 tested successfully. | [mTCA-EVM-300](https://github.com/jpietari/mrf-firmware/blob/main/dc/mTCA-EVM-300-280E0207.bit)
