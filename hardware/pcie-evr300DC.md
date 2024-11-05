@@ -38,7 +38,7 @@ Universal Slot 0/1 signals are hard-wired to the TTLIN 0/1 signals.
 
 ## PCIe-EVR-300DCS and IFB-300S Connections
 
-Due to its small bracket the PCIe-EVR-300DCS has only a SFP transceiver and a Samtec Eye Speed I/O type connector to interface to the IFB-300S. The cable between the PCIe-EVR-300DCS and IFB-300S should be connected/disconnected only when powered down.
+Due to its small bracket the PCIe-EVR-300DCS has only a SFP transceiver and a [Samtec Eye Speed I/O](https://www.samtec.com/high-speed-cable/micro-coax-twinax/eye-speed-io/) type connector to interface to the IFB-300S. The cable between the PCIe-EVR-300DCS and IFB-300S should be connected/disconnected only when powered down.
 
 | Connector/LED      | Style | Level          | Description                  |
 | -------------      | ----- | -----          | -----------                  |

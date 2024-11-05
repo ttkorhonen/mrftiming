@@ -63,6 +63,7 @@ The EVM supports driving and receiving signals to/from a RTM. The signal configu
 Table: mTCA-EVM-300 RTM Signals
 
 |   mTCA.4 J30/RP30 Pin | EVM RTM I/O Port        |
+| -----------------     | ----------------------- |
 | A3/B3                 | n/a                     |
 | C3/D3                 | n/a                     |
 | E3-/F3+               | TBOut8                  |
