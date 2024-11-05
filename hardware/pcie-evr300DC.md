@@ -18,7 +18,7 @@ connected/disconnected only when powered down.
 The interface board IFB-300 has eight Universal I/O slots which can be populated with various types of Universal I/O modules. If an input module is populated in any slot a jumper has to be mounted in that slot’s two pin header with marking “Insert jumper for input module”. Please note that if an input module is mounted the corresponding Universal Output Mapping has to be tri-stated. Refer to Table 1: Signal mapping IDs for details.
 Universal Slot 0/1 signals are hard-wired to the TTLIN 0/1 signals.
 
-[image](images/ifb300.png)
+![image](images/ifb-300.png)
 
 
 | Connector/LED | Style          | Level | Description                   |
